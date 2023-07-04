@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #343434;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px !important;
+}
+
+.container{
+    width: 1440px;
+    padding: 0px 200px 0px 200px;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+}
+
+.header-link{
+    margin-right: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-button{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+    padding-left: 34px;
+    width: 200px;
+    height: 50px;
+    border-radius: 17px;
+    background: rgba(212, 193, 7, 0.54);
+}
+
+.block-promo-title{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 63px;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.slider{
+    display: flex;
+    gap: 30px;
+}
+
+.promo-cart{
+    width: 1040px;
+    height: 400px;
+    border-radius: 20px;
+    background: #3F3F3F;
+    display: flex;
+}
+
+.promo-cart2{
+    width: 1040px;
+    height: 400px;
+    border-radius: 20px;
+    background: #3F3F3F;
+    display: flex;
+}
+
+.promo-cart-content{
+    width: 500px;
+}
+
+.promo-cart-title{
+    width: 270px;
+    height: 30px;
+    color: #EAD500;
+    margin-top: 50px;
+    margin-left: 115px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.promo-cart-decription{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.promo-cart-button{
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 34px 15px 34px;
+    border-radius: 17px;
+    background: rgba(212, 193, 7, 0.54);
+}
+
+.promo-cart-img{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.map-content{
+    margin-top: 122px;
+    text-align: center;
+    width: 500px;
+}
+
+.map-decription{
+    display: block!important;
+    margin-top: 20px;
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+iframe{
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.inputs-application{
+    width: 350px;
+    height: 220px;
+    margin-left: 60px;
+    margin-top: 110px;
+    margin-right: 90px;
+}
+
+.gg{
+    margin-top: 0!important;
+}
+
+.input-application{
+    padding-left: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2323238A;
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.application-button{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form{
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 1200px;
+        padding: 0px 100px 0px 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container{
+        width: 1000px;
+        padding: 0px 100px 0px 100px;
+    }
+    .promo-cart{
+        padding-top: 20px;
+        display: block;
+        width: 575px;
+        height: 650px;
+        border-radius: 20px;
+        background: #3F3F3F;
+    }
+    
+    .promo-cart2{
+        padding-top: 20px;
+        display: block;
+        width: 575px;
+        height: 650px;
+        border-radius: 20px;
+        background: #3F3F3F;
+    }
+    .promo-cart-content{
+    width: 700px;
+    }
+    .map-decription{
+        display: block!important;
+        margin-top: 20px;
+        width: 575px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .map-content{
+        margin-top: 70px;
+        text-align: center;
+        width: 575px;
+    }
+    .inputs-application{
+        
+        width: 350px;
+        height: 220px;
+        margin: auto;
+    }
+    .promo-cart-img{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        align-items: center;
+        margin-top: 50px;
+        margin: auto;
+    }
+    
+}
